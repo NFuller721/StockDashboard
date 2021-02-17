@@ -3,7 +3,7 @@ from alpha_vantage.timeseries import TimeSeries
 from SP500 import SP500
 
 ## Initialize alpha vantage api
-ts = TimeSeries(key='YOUR_KEY_HERE', output_format='pandas')
+ts = TimeSeries(key='73RE9B6EKHVY8OTJ', output_format='pandas')
 
 ## Symbols dictionary for symbols page
 symbols = {'Symbols': SP500}
